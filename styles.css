@@ -37,6 +37,20 @@ body {
     font-size: 15px;
 }
 
+/* flexbox container for 3 images */
+.flexbox-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#honest-burgers, #richmond-park, #sky-garden {
+  width: 250px;
+  height: 200px;
+}
+
 /* unvisited link */
 a:link {
     color: white;
